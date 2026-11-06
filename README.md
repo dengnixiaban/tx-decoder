@@ -1,5 +1,13 @@
 # 🔍 交易安全解析器 Transaction Decoder
 
+![License](https://img.shields.io/badge/license-MIT-blue)
+![React](https://img.shields.io/badge/React-19-61dafb?logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178c6?logo=typescript&logoColor=white)
+![viem](https://img.shields.io/badge/viem-2.x-6b7280)
+![chains](https://img.shields.io/badge/chains-6-3fb950)
+![demo](https://img.shields.io/badge/demo-live-brightgreen)
+
+
 把看不懂的以太坊交易，翻译成人能读懂的一句话，并给出风险评级。
 
 > Web3 最大的安全问题不是合约被攻破，而是**用户盲签** ——
