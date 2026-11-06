@@ -156,7 +156,7 @@ transfer            → 发送方当前余额
 ## 部署
 
 ```bash
-./deploy.sh        # 构建 + 上传 + 验证，一条命令
+HOST=root@your-server ./deploy.sh   # 构建 + 上传 + 验证
 ```
 
 生产环境是 nginx 静态托管 + `/4byte/` 反向代理：

@@ -2,7 +2,8 @@
 # 一键重新部署到生产服务器
 set -euo pipefail
 
-HOST="${HOST:-root@149.28.133.245}"
+# 服务器地址不写死在仓库里，部署时通过环境变量传入
+HOST="${HOST:?请指定服务器，例如：HOST=root@1.2.3.4 ./deploy.sh}"
 DEST="${DEST:-/var/www/tx-decoder}"
 
 echo "==> 1/3 构建"
